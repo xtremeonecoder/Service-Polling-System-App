@@ -62,15 +62,12 @@ A simple React Application for managing different web services smoothly in large
 
 ## How to install the application:
 
-1. Install node.js on your machine.
+1. Install **_node.js_** on your machine.
 2. Clone the repository, then keep the folder somewhere in you machine.
 3. Rename the directory as something like - **_service-poller-frontend_**.
-4. CD to the directory of Backend API **_service-poller-api_**.
-5. Open **_terminal_** or **_command-line_** window from the project root directory.
-6. Run **_service-poller-api_** using **_terminal_** window (command: `npm start`).
-7. CD to the directory of Frontend Application **_service-poller-frontend_**.
-8. Or open **_terminal_** or **_command-line_** window from the project root directory.
-9. Install the **_service-poller-frontend_** applications using following instruction:
+4. CD to the directory of Frontend Application **_service-poller-frontend_**.
+5. Or open **_terminal_** or **_command-line_** window from the project root directory.
+6. Install the **_service-poller-frontend_** applications using following instruction:
 
    - First check your **_NPM Version_** using `npm -v`.
    - If your **_NPM Version_** is **_6.x.x_** or **_less than 7.x.x_**, use `npm install` for installing the application.
@@ -82,10 +79,13 @@ A simple React Application for managing different web services smoothly in large
    - Check this article: [**_here_**](https://blog.npmjs.org/post/626173315965468672/npm-v7-series-beta-release-and-semver-major)
    - If you are using **_NPM Beta Version_**, another alternative is - you can downgrade your **_NPM_** to **_6.x.x_** using `npm install -g npm@6.14.11`.
 
-10. The installation process may take several minutes, once installation finished.
-11. Run **_service-poller-frontend_** using **_terminal_** or **_command-line_** window (command: `npm start`).
-12. **_http://localhost/4000_** is the url for exploring the backend api.
-13. **_http://localhost/3000_** is the url for exploring the frontend application.
+7. The installation process may take several minutes, once installation finished.
+8. Run **_service-poller-frontend_** using **_terminal_** or **_command-line_** window (command: `npm start`).
+9. **_http://localhost/3000_** is the url for exploring the frontend application.
+10. CD to the directory of Backend API **_service-poller-api_**.
+11. Or open **_terminal_** or **_command-line_** window from the project root directory.
+12. Run **_service-poller-api_** using **_terminal_** window (command: `npm start`).
+13. **_http://localhost/4000_** is the url for exploring the backend api.
 
 ## Application Dashboard
 
