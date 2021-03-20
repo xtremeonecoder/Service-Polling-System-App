@@ -69,7 +69,7 @@ A simple React Application for managing different web services smoothly in large
 5. Or open **_terminal_** or **_command-line_** window from the project root directory.
 6. Install the **_service-poller-frontend_** applications using following instruction:
 
-   - First check your **_NPM Version_** using `npm -v`.
+   - First check your **_NPM Version_** using `npm -v` or `npm --version`.
    - If your **_NPM Version_** is **_6.x.x_** or **_less than 7.x.x_**, use `npm install` for installing the application.
    - If your **_NPM Version_** is **_7.x.x_**, seems you are using **_Beta Version_**. In that case, using `npm install` will end you up with following unexpected peer dependency errors during installation. This is a problem in **_NPM Beta Version_**. But they have some tools for resolving that.
 
@@ -84,7 +84,7 @@ A simple React Application for managing different web services smoothly in large
 9. **_http://localhost/3000_** is the url for exploring the frontend application.
 10. CD to the directory of Backend API **_service-poller-api_**.
 11. Or open **_terminal_** or **_command-line_** window from the project root directory.
-12. Run **_service-poller-api_** using **_terminal_** window (command: `npm start`).
+12. Run **_service-poller-api_** using **_terminal_** or **_command-line_** window (command: `npm start`).
 13. **_http://localhost/4000_** is the url for exploring the backend api.
 
 ## Application Dashboard
