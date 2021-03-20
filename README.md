@@ -65,9 +65,9 @@ A simple React Application for managing different web services smoothly in large
 1. Install node.js on your machine.
 2. Clone the repository, then keep the folder somewhere in you machine.
 3. Rename the directory as something like - **_service-poller-frontend_**.
-4. CD to the directory of Backend API **_warehouse-api_**.
+4. CD to the directory of Backend API **_service-poller-api_**.
 5. Open **_terminal_** or **_command-line_** window from the project root directory.
-6. Run **_warehouse-api_** using **_terminal_** window (command: `npm start`).
+6. Run **_service-poller-api_** using **_terminal_** window (command: `npm start`).
 7. CD to the directory of Frontend Application **_service-poller-frontend_**.
 8. Or open **_terminal_** or **_command-line_** window from the project root directory.
 9. Install the **_service-poller-frontend_** applications using following instruction:
