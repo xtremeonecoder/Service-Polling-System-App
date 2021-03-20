@@ -63,8 +63,6 @@ class Register extends Form {
       // this.props.history.push("/");
     } catch (ex) {
       if (ex.response && ex.response.status === 400) {
-        console.log("response", ex.response);
-        console.log("message", ex.message);
         const errors = { ...this.state.errors };
         errors.username = ex.response.data;
         this.setState({ errors });
