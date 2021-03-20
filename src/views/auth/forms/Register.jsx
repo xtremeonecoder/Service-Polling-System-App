@@ -9,6 +9,7 @@
 
 import React from "react";
 import { Redirect } from "react-router-dom";
+import { toast } from "react-toastify";
 import Joi from "@hapi/joi";
 import {
   CCard,
@@ -47,6 +48,12 @@ class Register extends Form {
     try {
       // register new user
       const response = await register(this.state.data);
+
+      // check for authentication header
+      if (!response || !response.headers["x-auth-token"]) {
+        toast.error("Error: Something went wrong while registration!");
+        return null;
+      }
 
       // store the jwt into the local-storage
       auth.loginWithJwt(response.headers["x-auth-token"]);
